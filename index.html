@@ -423,29 +423,8 @@ void MQTT_connect() {
     </p>
   </div>
 
-  <!-- DASHBOARD -->
-  <h1>Home Security Monitoring Dashboard</h1>
-  <div class="sensors">
-    <div class="sensor-card"><h3>PIR Motion Sensor</h3><p>Status: <span class="sensor-status ok">Idle</span></p></div>
-    <div class="sensor-card"><h3>Smoke Sensor</h3><p>Status: <span class="sensor-status ok">Clear</span></p></div>
-    <div class="sensor-card"><h3>Door & Window Sensor</h3><p>Status: <span class="sensor-status ok">Closed</span></p></div>
-    <div class="sensor-card"><h3>Fire Detector</h3><p>Status: <span class="sensor-status ok">Safe</span></p></div>
-    <div class="sensor-card"><h3>Gas Sensor</h3><p>Status: <span class="sensor-status ok">No Leak</span></p></div>
-  </div>
-
-  <script>
-    function copyCode(){
-      const codeText = document.getElementById("espCode").innerText;
-      const temp = document.createElement("textarea");
-      document.body.appendChild(temp);
-      temp.value = codeText;
-      temp.select();
-      document.execCommand("copy");
-      document.body.removeChild(temp);
-      alert("ESP32 code copied to clipboard!");
-    }
-  </script>
 
 </body>
 </html>
+
 
