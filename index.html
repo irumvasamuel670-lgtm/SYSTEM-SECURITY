@@ -175,12 +175,12 @@
     <p>
       The Home Security Monitoring System provide technology based solutions providing continuous real-time data control of home environments.
       Its main goal is to detect threats like unauthorized access, smoke, and all other abnormalities can cause poor security related to sensors  
-      have been used Through data collection from sensors,the microcontroller processes and visualizes data on a digital dashboard, ensuring early alerts and safety.
-      The system uses internet based principles with microcontroller as the edge device collecting data from PIR motion sensors, smoke and gas sensors,
-      flame detectors, infrared sensor. Each component functions as a data node sending status updates  for analysis The camera module enables
-      remote surveillance, Breadboards, jumper wires, and a 5V DC supply ensure connectivity and stable operation,Societal benefits include improved
-      home security, prevention of theft, and detection of health hazards, The internet dashboard allows users to be responded in real-time
-      applying automation and remote monitoring to create  safer and smarter living environments.
+      have been used Through data collection from sensors,the microcontroller processes and visualizes data on a digital dashboard, ensuring early 
+      alerts and safety.The system uses internet based principles with microcontroller as the edge device collecting data from PIR motion sensors, 
+      smoke and gas sensors,flame detectors, infrared sensor. Each component functions as a data node sending status updates  for analysis The camera
+      module enables remote surveillance, Breadboards to hold component for connection, jumper wires to connect it, and a 5V DC supply to supply power  
+      to each component and provide home security, prevention of theft , and detection of health hazards , The internet dashboard allows  users to be
+      responded in real-time ,stable operation,Societal benefits include improved applying automation and remote monitoring to create  safer and smarter living environments.
      
     </p>
     <style>
@@ -194,11 +194,16 @@
     </style>
     
     <div class="block-diagram">
-      <h3>📊 Block Diagram of the IoT Home Security Monitoring System</h3>
+      <h3> Block Diagram of Home Security Monitoring System</h3>
       <img src="RENEW.png" alt="Block Diagram of Home Security Monitoring System">   
     </div>
+     
+    <div class="block-diagram">
+      <h3>Circuit Diagram of Home Security Monitoring System</h3>
+      <img src="CIRCUIT.png" alt="Block Diagram of Home Security Monitoring System">   
+    </div>
     
-    <h3>🖼️ Component Used Images And description</h3>
+    <h3> Component Used Images And Their description</h3>
     <div class="component-gallery">
       <div class="row">
         <div>
@@ -246,7 +251,7 @@
       to all components.
     </p>
 
-    <h3>💻 ESP32 Controller Code</h3>
+    <h3> ESP32 Controller Code</h3>
     <div class="code-block" id="espCode">
 <pre>
 #include <Adafruit_MQTT.h>
@@ -422,6 +427,7 @@ void MQTT_connect() {
 
 </body>
 </html>
+
 
 
 
