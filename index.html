@@ -178,8 +178,8 @@
       have been used Through data collection from sensors,the microcontroller processes and visualizes data on a digital dashboard, ensuring early 
       alerts and safety.The system uses internet based principles with microcontroller as the edge device collecting data from PIR motion sensors, 
       smoke and gas sensors,flame detectors, infrared sensor. Each component functions as a data node sending status updates  for analysis The camera
-      module enables remote surveillance, Breadboards to hold component for connection, jumper wires to connect it, and a 5V DC supply to supply power  
-      to each component and provide home security, prevention of theft , and detection of health hazards , The internet dashboard allows  users to be
+      module enables remote surveillance, Breadboards hold component for proper connection, jumper wires to connect it, and a 5V DC supply to supply power  
+      to each component of the system and provide home security, prevention of theft , and detection of health hazards , The internet dashboard allows  users to be
       responded in real-time ,stable operation,Societal benefits include improved applying automation and remote monitoring to create  safer and smarter living environments.
      
     </p>
@@ -204,52 +204,55 @@
     </div>
     
     <h3> Component Used Images And Their description</h3>
+     In our project called Home Security Monitoring System, which enables the user to
+     monitor home safety and security remotely and in real-time, we used the following 
+     components to ensure proper functionality.
     <div class="component-gallery">
       <div class="row">
         <div>
           <figure class="avatar"><img src="WhatsApp Image 2025-10-27 at 02.12.39.jpeg" alt="ESP32"></figure>
           <div class="caption">ESP32</div>
+      The microcontroller is the main and central component 
+      controlling whole system
         </div>
         <div>
           <figure class="avatar"><img src="WhatsApp Image 2025-10-27 at 02.12.38 (1).jpeg" alt="PIR Sensor"></figure>
           <div class="caption">PIR Sensor</div>
+           while the PIR motion sensor detects heat emitted by humans, animals, or other warm object which we can call intruders.
         </div>
         <div>
           <figure class="avatar"><img src="WhatsApp Image 2025-10-27 at 02.12.38 (3).jpeg" alt="Smoke Sensor"></figure>
           <div class="caption">Smoke Sensor</div>
+          sensor detects harmful smoke an indication of fire, burning, or dangerous air quality. 
         </div>
         <div>
           <figure class="avatar"><img src="WhatsApp Image 2025-10-27 at 02.12.38 (2).jpeg" alt="Infrared Sensor"></figure>
           <div class="caption">Infrared Sensor</div>
+          An infrared sensor detects objects or movement by emitting infrared light and 
+          measuring the reflection using aphotodiode. When an object comes close, the reflected 
+          light increases allowing the sensor to identify the presence or distance of the object.
         </div>
-        
       </div>
       <div class="row">
         <div>
           <figure class="avatar"><img src="WhatsApp Image 2025-10-27 at 02.12.38.jpeg" alt="Buzzer"></figure>
           <div class="caption">Buzzer</div>
+          A buzzer is a device that produces sound when electricity is applied. 
+          It is used to create alarms, alerts, and notifications in systems.
         </div>
         <div>
           <figure class="avatar"><img src="WhatsApp Image 2025-10-27 at 02.48.04.jpeg" alt="LEDs"></figure>
           <div class="caption">LEDs</div>
+          They are used for indication of visual signals in the system.
         </div>
         <div>
           <figure class="avatar"><img src="WhatsApp Image 2025-10-27 at 02.46.14.jpeg" alt="Breadboard"></figure>
           <div class="caption">Breadboard and jumpers</div>
+          A breadboard is a reusable board used to build and test our system without soldering. It has connected rows of holes 
+          where components and jumperwires can easily be inserted for quick prototyping or testing before implementation.
         </div>
       </div>
     </div>
-
-    <p>
-      In our project called Home Security Monitoring System, which enables the user to
-      monitor home safety and security remotely and in real-time, we used the above components 
-      to ensure proper functionality. The microcontroller is the main and central component 
-      controlling the whole system, while the PIR motion sensor detects intruders, the smoke 
-      sensor detects harmful smoke, and the infrared sensor detects obstacles or unauthorized 
-      movements. The buzzer and LEDs serve as indicators to alert users, and the breadboard 
-      with jumper wires ensures stable connections. Finally, a power supply provides energy 
-      to all components.
-    </p>
 
     <h3> ESP32 Controller Code</h3>
     <div class="code-block" id="espCode">
@@ -427,6 +430,7 @@ void MQTT_connect() {
 
 </body>
 </html>
+
 
 
 
